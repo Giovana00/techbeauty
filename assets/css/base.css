@@ -72,7 +72,8 @@ html{
     color:var(--primary-foreground);
 }
 .a{
-    font-size: 1.2rem;
+    font-size: 2rem;
+    margin-left: 65px;
 }
 @media (width>600px){
     .a{

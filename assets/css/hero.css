@@ -4,9 +4,9 @@
 }
 .hero h1{
     font-weight: bold;
-    font-size: 0.8rem;
+    font-size: 2rem;
     margin-bottom: 2rem;
-    margin-left: 2rem;
+    margin-left: 5rem;
 }
 .hero h2{
     font-weight: normal;
@@ -14,11 +14,12 @@
     margin-bottom: 3rem;
 }
 .hero-avatar{
-    display: block;
-    width: 15rem;
+    display: inline-block;
+    margin-right: 20px;
+    width: 20rem;
     height: auto;
     margin: auto;
-    margin-bottom: 5rem;
+    margin-bottom: 3rem;
 }
 .hero-device{
     display: block;
