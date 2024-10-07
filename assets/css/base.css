@@ -7,10 +7,10 @@ body{
 	
 }
 h1{
-	color: #8B0000; 
+	color: #678169; 
 }
 h2, h3, h4{
-	color: #8B4513;
+	color: #2d230f;
 }
 #cadastro, #pesquisa{
 
@@ -48,13 +48,13 @@ button:hover{
 	background-color: #ddd;
 }
 body{
-    color:#8B4513;
+    color:black;
     background-color: white;
     background-blend-mode: multiply;
     
 }
 #menu a{
-	color: rgb(139,69,19);
+	color: black;
 	text-decoration: none;
 	font-family: Barlow;
 	font-size: 15px;
@@ -80,9 +80,24 @@ header{
 .container {
   display: flex;
   align-items: center;
-  justify-content: center;
-  flex-direction: column;
+  justify-content: space-between;
   text-align: center;
+}
+
+.container1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  text-align: center;
+}
+
+.tudo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 500px;
+  padding-right: 500px;
 }
 
 .form_area {
@@ -90,12 +105,12 @@ header{
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: #EDDCD9;
+  background-color: #678169;
   height: auto;
   width: auto;
   border: 2px solid #264143;
   border-radius: 20px;
-  box-shadow: 3px 4px 0px 1px #E99F4C;
+  box-shadow: 3px 4px 0px 1px #2d230f;
 }
 
 .title {
@@ -120,7 +135,7 @@ header{
 .form_style {
   outline: none;
   border: 2px solid #264143;
-  box-shadow: 3px 4px 0px 1px #E99F4C;
+  box-shadow: 3px 4px 0px 1px #2d230f;
   width: 290px;
   padding: 12px 10px;
   border-radius: 4px;
@@ -129,18 +144,18 @@ header{
 
 .form_style:focus, .btn:focus {
   transform: translateY(4px);
-  box-shadow: 1px 2px 0px 0px #E99F4C;
+  box-shadow: 1px 2px 0px 0px #2d230f;
 }
 
 .btn {
   padding: 15px;
-  margin: 25px 0px;
+  margin: 25px 10px;
   width: 290px;
   font-size: 15px;
-  background: #DE5499;
+  background: #b6bbaf;
   border-radius: 10px;
   font-weight: 800;
-  box-shadow: 3px 3px 0px 0px #E99F4C;
+  box-shadow: 3px 3px 0px 0px #2d230f;
 }
 
 .btn:hover {
