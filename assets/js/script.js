@@ -29,3 +29,4 @@ for(let slider of slides){
 }
 }
 setInterval(toggleSlider, 5000);
+
