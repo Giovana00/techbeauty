@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="assets/css/base.css">
     <link rel="stylesheet" href="assets/css/header.css">
     <link rel="stylesheet" href="assets/css/hero.css">
+    <link rel="stylesheet" href="assets/css/hamburguer.css">
     <link rel="shortcut icon" type="image/png" href="assets/images/logo2.0.png">
 </head>
 <body>
@@ -16,22 +17,20 @@
              <a href=""><img src="assets/images/logo2.0.png" alt="">
              </a>
             </div>
-            
-            <div class="menu-opener">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
         </div>
+    <nav class="nav-menu">
+        <button id="hamburguer-button" class="hamburguer-button" aria-label="Menu Principal" aria-controls="menu" aria-expanded="true">
+            <span class="icon"></span>Menu
+        </button>
 
-        <nav>
-            <a href="index.html" class="button">Home</a>
-            <a href="loc.html" class="button">Localização</a>
-            <a href="services.html" class="button">Serviços</a>
-            <a href="reserva.html" class="button">Reserva</a>
-            <a href="sobrenos.html" class="button">Sobre Nós</a>
-        </nav>
-
+        <ul id="menu" aria-hidden="true" class="menu" aria-hidden="true">
+            <li><a href="index.html" class="button">Home</a></li>
+            <li><a href="loc.html" class="button">Localização</a></li>
+            <li><a href="services.html" class="button">Serviços</a></li>
+            <li><a href="reserva.html" class="button">Reserva</a></li>
+            <li><a href="sobrenos.html" class="button">Sobre Nós</a></li>
+        </ul>
+    </nav>
     </header>
     
     <div class="a">
@@ -60,6 +59,7 @@
 	<img src="./assets/images/logo2.0.png" width="70px" height="50px">
 	</div></center>
     
+<script type="text/javascript" src="assets/js/menu.js"></script>
 <script type="text/javascript" src="assets/js/script.js"></script>
 <script type="text/javascript" src="assets/js/hamburguer.js"></script>
 </html>
