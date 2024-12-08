@@ -1,0 +1,12 @@
+.container img{
+    height: 10rem;
+    width: 100%;
+    border: none;
+}
+
+@media (max-width: 768px) {
+    .container, .container-sm {
+        max-width: 540px;
+        flex-direction: column;
+    }
+}

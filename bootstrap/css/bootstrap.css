@@ -606,11 +606,13 @@ progress {
 @media (min-width: 576px) {
   .container-sm, .container {
     max-width: 540px;
+    flex-direction: column;
   }
 }
 @media (min-width: 768px) {
   .container-md, .container-sm, .container {
     max-width: 720px;
+    flex-direction: column;
   }
 }
 @media (min-width: 992px) {
